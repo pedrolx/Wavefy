@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    gap: 3rem;
+    align-items: center;
+    padding: 1rem 2rem;
+    
+    width: 100vw;
+    height: 11vh;
+
+    font-size: small;
+    color: var(--color-text);
+
+    background-color: var(--color-surface);
+
+    position: relative;
+}
+
+.container a {
+    color: var(--color-primary);
+    text-decoration: var(--color-primary) underline;
+}
+
+.logo {
+
+}
+
+.buttonContainer {
+
+}

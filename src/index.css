@@ -1,0 +1,79 @@
+:root {
+  font-family: Apple Chancery, cursive;
+
+  /* === Cores principais === */
+  --color-primary: #7C3AED;
+  --color-secondary: #3B82F6;
+  --color-accent: #9333EA;
+
+  /* === Fundo e superfícies === */
+  --color-background: #0F0F1A;
+  --color-surface: #181824;
+
+  /* === Tipografia === */
+  --color-text: #F1F1F1;
+  --color-text-muted: #9CA3AF;
+
+  /* === Gradiente === */
+  --gradient-primary: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+
+  /* === Outros === */
+  --radius: 12px;
+  --transition: 0.4s ease-in-out;
+
+
+}
+
+/* === Reset básico === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === Corpo e tipografia === */
+html, body {
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: var(--color-background);
+  overflow: hidden;
+}
+
+/* === Tipos de elementos === */
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button, input, textarea, select {
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* === Imagens e mídia === */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* === Cabeçalhos === */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+/* === Layout === */
+#root {
+  isolation: isolate; 
+}
