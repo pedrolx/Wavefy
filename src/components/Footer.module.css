@@ -2,14 +2,14 @@
     display: flex;
     flex-direction: row;
     justify-content: baseline;
-    gap: 3rem;
+    gap: 5rem;
     align-items: center;
     padding: 1rem 2rem;
 
     width: 100vw;
     height: 5rem;
 
-    font-size: small;
+    font-size: medium;
     color: var(--color-text);
 
     background: color-mix(in srgb, var(--color-surface) 80%, transparent);
@@ -18,6 +18,11 @@
 }
 
 .container a {
+    color: var(--color-secondary);
+    text-decoration: var(--color-secondary) underline;
+}
+
+.container a:visited {
     color: var(--color-primary);
     text-decoration: var(--color-primary) underline;
 }
