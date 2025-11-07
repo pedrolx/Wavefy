@@ -5,14 +5,14 @@
     gap: 3rem;
     align-items: center;
     padding: 1rem 2rem;
-    
+
     width: 100vw;
-    height: 11vh;
+    height: 5rem;
 
     font-size: small;
     color: var(--color-text);
 
-    background-color: var(--color-surface);
+    background: color-mix(in srgb, var(--color-surface) 80%, transparent);
 
     position: relative;
 }
@@ -22,10 +22,6 @@
     text-decoration: var(--color-primary) underline;
 }
 
-.logo {
+.logo {}
 
-}
-
-.buttonContainer {
-
-}
+.buttonContainer {}

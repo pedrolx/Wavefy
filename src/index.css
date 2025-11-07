@@ -33,12 +33,10 @@
 
 /* === Corpo e tipografia === */
 html, body {
-  height: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-color: var(--color-background);
-  overflow: hidden;
+  background-image: url(./assets/fundo_solido.png);
 }
 
 /* === Tipos de elementos === */
